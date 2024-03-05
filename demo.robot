@@ -26,4 +26,5 @@ getting image url and text
 	Log To Console    sorce of image is:${image data}
 	${da}=      Get Text    xpath:(//div[@id='loading']/br)
 	Log To Console    text is :${da}
+	Log To Console    data found
 
