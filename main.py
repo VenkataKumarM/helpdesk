@@ -1,5 +1,11 @@
-input_list = [0, 2, 4, 0, 3, 5, 1, 0, 6]
+#write a python program to check given number prime or not
 
-non_zeros = [i for i in input_list if i!=0]
-num_zeros = len(input_list) - len(non_zeros)
-print(non_zeros+[0]*num_zeros)
+
+_input = int(input('enter'))
+if _input%2 ==1 or _input%_input ==1:
+    print('prime')
+else:
+    print('not a prime ')
+#
+# def is_prime(number):
+#     if number
